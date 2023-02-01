@@ -1,0 +1,30 @@
+/* .card{
+    margin-left: 5%;
+    margin-right: 5%;
+} */
+
+.row {
+    margin: 2%;
+}
+
+.card-group {
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#conocimientos {
+    margin: 5%;
+}
+
+h1, h3 {
+    background: #A7CFDF;
+    background: linear-gradient(to bottom, #A7CFDF 30%, #23538A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn {
+    margin: 3px;
+    width: 30%;
+}

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es" id="principal" data-bs-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hugo Lucero - CV</title>
+    <link
+      href="http://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../css/utilities.css" />
+    <script src="../js/indexJs.js"></script>
+    <script
+      src="https://kit.fontawesome.com/abcf412a24.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  </head>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <span class="fw-bold">Hugo Lucero</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse text-right"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#inicio"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#miInfo">Mi Info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#conocimientos">Conocimientos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i id="iconTheme" class="fa-solid fa-circle-half-stroke"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    id="claro"
+                    class="dropdown-item"
+                    href="#"
+                    onclick="darkModeToggle('light')"
+                    ><i class="bi bi-brightness-high"></i>&nbsp;Claro</a
+                  >
+                </li>
+                <li>
+                  <a
+                    id="oscuro"
+                    class="dropdown-item"
+                    href="#"
+                    onclick="darkModeToggle('dark')"
+                    ><i class="bi bi-moon-stars-fill"></i>&nbsp;Oscuro</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <body class="container-fluid">
+    <div id="inicio">
+      <h1
+        id="quienSoyTitulo"
+        class="text-center"
+        style="padding-top: 15px; margin-top: 5%; margin-bottom: 3%"
+      >
+        Mi nombre es...
+      </h1>
+      <div id="parrafo1" class="col-xs-12 col-md-12">
+        <p
+          style="padding-left: 25%; padding-right: 25%"
+          class="text-center fw-semibold fs-4"
+        >
+          Hugo Lucero y soy un desarrollador web con mucha predisposición para
+          el trabajo en equipo.
+          <br />
+          <span id="resaltado1" class="fw-bold text-primary"
+            >Curioso, entusiasta y dedicado.
+          </span>
+          <br />
+          Ansioso por aplicar las herramientas adquiridas para la resolución de
+          problemas. Con muchas ganas de aprender y crecer.
+        </p>
+      </div>
+    </div>
+    <div id="miInfo">
+      <div class="card-group">
+        <div class="card">
+          <h5 class="card-header">Residencia</h5>
+          <img
+            class="card-img-top"
+            src="../assets/cards/Mendoza.jpg"
+            alt="Mendoza, Argentina"
+          />
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Mendoza, Argentina</h5>
+            <p class="card-text">
+              Nací y vivo en esta hermosa ciudad, ubicada al 'oeste' de mi
+              querida Argentina. Una provincia llena de distintas costumbres y
+              variedad de posibilidades turísticas.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <h5 class="card-header">Contacto</h5>
+          <img
+            class="card-img-top"
+            src="../assets/cards/contactos.jpg"
+            alt="Mendoza, Argentina"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Datos de contacto</h5>
+            <p class="card-text">
+              <strong>Email: </strong><span>hugolucerofotografo@gmail.com</span>
+              <br />
+              <a class="btn btn-primary btn-sm" href="https://www.linkedin.com/in/hugo-lucero"><i class="fa-brands fa-linkedin"></i>&nbsp;<span class="fw-semibold">LinkedIn</span></a>
+              <br />
+              <a class="btn btn-primary btn-sm" href="https://github.com/HugoLucero/"><i class="fa-brands fa-github"></i>&nbsp;<span class="fw-semibold">GitHub</span></a>
+              
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <h5 class="card-header">Idiomas</h5>
+          <img
+            class="card-img-top"
+            src="../assets/cards/idiomas.jpg"
+            alt="Mendoza, Argentina"
+            style="height: 287px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Lenguaje y Nivel</h5>
+            <p class="card-text">
+              <span>Inglés - A2</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="conocimientos">
+      <h3 class="text-center">CONOCIMIENTOS EN PROGRAMACI&Oacute;N</h3>
+      <div>
+        <div class="card-body">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner align-center">
+              <div class="carousel-item">
+                <img
+                  src="../assets/slider/java.jpg"
+                  class="d-block w-100"
+                  alt="Java"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../assets/slider/hibernate.jpeg"
+                  class="d-block w-100"
+                  alt="Hibernate"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../assets/slider/html.jpg"
+                  class="d-block w-100"
+                  alt="HTML"
+                />
+              </div>
+              <div class="carousel-item active">
+                <img
+                  src="../assets/slider/javascript.jpg"
+                  class="d-block w-100"
+                  alt="JavaScript"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../assets/slider/maven.png"
+                  class="d-block w-100"
+                  alt="Maven"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../assets/slider/mysql.avif"
+                  class="d-block w-100"
+                  alt="MySQL"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../assets/slider/spring.jpg"
+                  class="d-block w-100"
+                  alt="Spring"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../assets/slider/thymeleaf.png"
+                  class="d-block w-100"
+                  alt="Thymeleaf"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="proyectos">
+      <h3 class="text-center">PROYECTOS</h3>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Distribuidora Dalmasso
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>Mi primera aplicación java.</strong>
+              Esta aplicación se aceptó en un principio como un desafío en el
+              cual quería ganar mi primera experiencia con un cliente real,
+              donde las prácticas fueron acordes a la experiencia y
+              conocimientos que había obtenido mientras cursaba. Sistema de
+              Ventas realizado para una distribuidora de helados con el fin de
+              solucionar los problemas presentados por el cliente. Este sistema
+              cuenta con varias secciones como lo es la sección de: Ventas.
+              Clientes. Productos. Ordenes. Cargas. Reportes. Ventas: en esta
+              sección podremos realizar una venta en donde tendremos un carrito,
+              busqueda de productos por nombre, selección de clientes, lista de
+              precio, etc. Clientes: en esta sección podremos ver, agregar,
+              editar o eliminar el/los clientes. Productos: en esta sección
+              podremos ver, agregar, editar o eliminar el/los productos. El
+              precio de los productos no se muestra en dicha vista, ya que
+              dentro hay una seccion para las "Listas de Precio", en donde sí se
+              encuentran todos los productos en cada lista creada con sus
+              respectivos precios. Ordenes: en esta sección podremos ver o
+              eliminar las ventas realizadas. Al seleccionar una, podremos
+              visualizar el detalle de la venta, ya sea cliente, hora y fecha,
+              productos, total, etc., como así también la posibilidad de
+              exportarla en PDF. Cargas: en esta sección podremos ver el stock
+              de cada uno de los productos. Esto fue realizado así para los
+              tipos de ventas que utiliza el cliente (Venta directa: Control de
+              la carga y descarga de productos; Pre-Venta: Posibilidad de cargar
+              un numero grande para evitar los mensajes de "Producto agotado").
+              Reportes: en esta sección podremos ver, agregar o eliminar un
+              reporte de productos. Esta sección fue diseñada para resolver el
+              problema de contabilizar todos los productos que se realizaban en
+              la pre-venta, ya que se agrupan por nombre y cantidad. También
+              cuenta con la posibilidad de eportar a PDF.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Disney App
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>Disney App.</strong>
+              Aplicación diseñada para el primer challenge de la aceleración de
+              Alkemy. Desafío en donde pude aprender bastante sobre la como es
+              trabajar en un ambiente simil-real. Excelente experiencia para
+              recomendar.
+              <a href="https://github.com/HugoLucero/DisneyApp">Repo GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <footer style="margin-top: 10%">
+    <div>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <span class="navbar-text"> Cv - Portfolio desarrollado para la segunda etapa de Argentina Programa. </span>
+        </div>
+      </nav>
+    </div>
+  </footer>
+</html>
